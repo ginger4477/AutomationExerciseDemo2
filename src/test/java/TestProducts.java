@@ -51,7 +51,7 @@ public class TestProducts {
                 "Cotton Mull Embroidered Dress", "Blue Cotton Indie Mickey Dress", "Long Maxi Tulle Fancy Dress Up Outfits -Pink",
                 "Sleeveless Unicorn Print Fit & Flare Net Dress - Multi", "Rose Pink Embroidered Maxi Dress"};
 
-        Assertions.assertEquals(expected, indexPage.listItems());
+        Assertions.assertArrayEquals(expected, indexPage.listItems());
 
 
 
